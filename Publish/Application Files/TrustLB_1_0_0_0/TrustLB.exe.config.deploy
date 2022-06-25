@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="TrustLB.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="TrustLB.My.MySettings.TLBConnM" connectionString="Driver={MariaDB ODBC 3.1 Driver};tcpip=1;server=127.0.0.1;uid=root;pwd=jr632504$;database=trustlb;port=3306"
+            providerName="System.Data.Odbc" />
+        <add name="TrustLB.My.MySettings.ConnectionString" connectionString="Driver={Microsoft Access Driver (*.mdb)};dbq=C:\TrustLB\TrustLB.mdb;defaultdir=C:\TrustLB;driverid=25;fil=MS Access;filedsn=C:TrustLB\TLBAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes"
+            providerName="System.Data.Odbc" />
+        <add name="TrustLB.My.MySettings.TLBConnA" connectionString="Driver={Microsoft Access Driver (*.mdb)};dbq=C:\TrustLB\TrustLB.mdb;defaultdir=C:\TrustLB;driverid=25;fil=MS Access;filedsn=C:\Users\Jaime Roza P\Documents\TLBAccess.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes"
+            providerName="System.Data.Odbc" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+    </startup>
+    <userSettings>
+        <TrustLB.My.MySettings>
+            <setting name="UserID" serializeAs="String">
+                <value>jrozap</value>
+            </setting>
+            <setting name="UName" serializeAs="String">
+                <value>Jaime Roza Pedreira</value>
+            </setting>
+            <setting name="UserLic" serializeAs="String">
+                <value>TLB-2022-689651-7228</value>
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value>Jaime M. Roza Pedreira</value>
+            </setting>
+            <setting name="DBType" serializeAs="String">
+                <value>MariaDB</value>
+            </setting>
+            <setting name="DBName" serializeAs="String">
+                <value>TrustLB</value>
+            </setting>
+            <setting name="PathAPP" serializeAs="String">
+                <value>C:\TrustLB</value>
+            </setting>
+            <setting name="AccPath" serializeAs="String">
+                <value>C:\TrustLB</value>
+            </setting>
+            <setting name="InstallDte" serializeAs="String">
+                <value>2022-03-15</value>
+            </setting>
+            <setting name="UserType" serializeAs="String">
+                <value>Admin</value>
+            </setting>
+            <setting name="CiaName" serializeAs="String">
+                <value>BioTrust, C. A.</value>
+            </setting>
+            <setting name="CiaLogoP" serializeAs="String">
+                <value>C:\Users\Jaime Roza P\Development\TrustedLS\TrustLB\TrustLB\Resources\BioTrust Logo 7.png</value>
+            </setting>
+            <setting name="TrustLBF" serializeAs="String">
+                <value>2022-03-15</value>
+            </setting>
+            <setting name="AsientoN" serializeAs="String">
+                <value>000</value>
+            </setting>
+            <setting name="CierreD" serializeAs="String">
+                <value>2022-05-03</value>
+            </setting>
+            <setting name="UserIDMDB" serializeAs="String">
+                <value>root</value>
+            </setting>
+            <setting name="UserIDPG" serializeAs="String">
+                <value>root</value>
+            </setting>
+            <setting name="UserIDAcc" serializeAs="String">
+                <value>admin</value>
+            </setting>
+            <setting name="passwdMDB" serializeAs="String">
+                <value>jr632504$</value>
+            </setting>
+            <setting name="passwdPG" serializeAs="String">
+                <value>jr632504$</value>
+            </setting>
+            <setting name="passwdAcc" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MDBipV4" serializeAs="String">
+                <value>127.0.0.1</value>
+            </setting>
+            <setting name="PGipV4" serializeAs="String">
+                <value>127.0.0.1</value>
+            </setting>
+            <setting name="dsnMDB" serializeAs="String">
+                <value>TLBConnM</value>
+            </setting>
+            <setting name="dsnPG" serializeAs="String">
+                <value>TLBConnP</value>
+            </setting>
+            <setting name="dsnAcc" serializeAs="String">
+                <value>TLBConnA</value>
+            </setting>
+            <setting name="currDSN" serializeAs="String">
+                <value>TLBConnA</value>
+            </setting>
+            <setting name="DBEngine" serializeAs="String">
+                <value>MS-Access 2010</value>
+            </setting>
+            <setting name="TLBBioAn" serializeAs="String">
+                <value>Maria Jose Antes Enriquez</value>
+            </setting>
+        </TrustLB.My.MySettings>
+    </userSettings>
+</configuration>
